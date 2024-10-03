@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C20823E-9EEA-4E87-8E65-396BDD012CF4}|MVC - complete architecture\\MVC - complete architecture.csproj|z:\\projekt\\.net-core-mvc----complete\\mvc - complete architecture\\mvc - complete architecture\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C20823E-9EEA-4E87-8E65-396BDD012CF4}|MVC - complete architecture\\MVC - complete architecture.csproj|solutionrelative:mvc - complete architecture\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\MVC - complete architecture\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MVC - complete architecture\\Controllers\\HomeController.cs",
+              "ToolTip": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\MVC - complete architecture\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MVC - complete architecture\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T14:29:12.798Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
