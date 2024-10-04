@@ -1,0 +1,21 @@
+﻿@model MVC___complete_architecture.ViewModels.TutorialViewModel
+<h1>@ViewData["title"]</h1>
+
+<h2>@Model.title</h2>
+
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Description</th>
+    </tr>
+
+   
+   
+    <tr>
+        <th>@Model.tutorial.Id</th>
+        <th>@Model.tutorial.Name</th>
+        <th>@Model.tutorial.Description</th>
+    </tr>
+  
+</table>

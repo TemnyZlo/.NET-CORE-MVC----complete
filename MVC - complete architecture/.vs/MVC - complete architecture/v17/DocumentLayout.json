@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C20823E-9EEA-4E87-8E65-396BDD012CF4}|MVC - complete architecture\\MVC - complete architecture.csproj|z:\\projekt\\.net-core-mvc----complete\\mvc - complete architecture\\mvc - complete architecture\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C20823E-9EEA-4E87-8E65-396BDD012CF4}|MVC - complete architecture\\MVC - complete architecture.csproj|solutionrelative:mvc - complete architecture\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C20823E-9EEA-4E87-8E65-396BDD012CF4}|MVC - complete architecture\\MVC - complete architecture.csproj|z:\\projekt\\.net-core-mvc----complete\\mvc - complete architecture\\mvc - complete architecture\\controllers\\tutorialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C20823E-9EEA-4E87-8E65-396BDD012CF4}|MVC - complete architecture\\MVC - complete architecture.csproj|solutionrelative:mvc - complete architecture\\controllers\\tutorialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C20823E-9EEA-4E87-8E65-396BDD012CF4}|MVC - complete architecture\\MVC - complete architecture.csproj|z:\\projekt\\.net-core-mvc----complete\\mvc - complete architecture\\mvc - complete architecture\\views\\tutorial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C20823E-9EEA-4E87-8E65-396BDD012CF4}|MVC - complete architecture\\MVC - complete architecture.csproj|solutionrelative:mvc - complete architecture\\views\\tutorial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C20823E-9EEA-4E87-8E65-396BDD012CF4}|MVC - complete architecture\\MVC - complete architecture.csproj|z:\\projekt\\.net-core-mvc----complete\\mvc - complete architecture\\mvc - complete architecture\\viewmodels\\tutorialviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C20823E-9EEA-4E87-8E65-396BDD012CF4}|MVC - complete architecture\\MVC - complete architecture.csproj|solutionrelative:mvc - complete architecture\\viewmodels\\tutorialviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C20823E-9EEA-4E87-8E65-396BDD012CF4}|MVC - complete architecture\\MVC - complete architecture.csproj|z:\\projekt\\.net-core-mvc----complete\\mvc - complete architecture\\mvc - complete architecture\\models\\tutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C20823E-9EEA-4E87-8E65-396BDD012CF4}|MVC - complete architecture\\MVC - complete architecture.csproj|solutionrelative:mvc - complete architecture\\models\\tutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\MVC - complete architecture\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "MVC - complete architecture\\Controllers\\HomeController.cs",
-              "ToolTip": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\MVC - complete architecture\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "MVC - complete architecture\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "TutorialViewModel.cs",
+              "DocumentMoniker": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\MVC - complete architecture\\ViewModels\\TutorialViewModel.cs",
+              "RelativeDocumentMoniker": "MVC - complete architecture\\ViewModels\\TutorialViewModel.cs",
+              "ToolTip": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\MVC - complete architecture\\ViewModels\\TutorialViewModel.cs",
+              "RelativeToolTip": "MVC - complete architecture\\ViewModels\\TutorialViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T14:29:12.798Z",
+              "WhenOpened": "2024-10-04T16:26:52.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\MVC - complete architecture\\Views\\Tutorial\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC - complete architecture\\Views\\Tutorial\\Index.cshtml",
+              "ToolTip": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\MVC - complete architecture\\Views\\Tutorial\\Index.cshtml",
+              "RelativeToolTip": "MVC - complete architecture\\Views\\Tutorial\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T14:52:16.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Tutorial.cs",
+              "DocumentMoniker": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\MVC - complete architecture\\Models\\Tutorial.cs",
+              "RelativeDocumentMoniker": "MVC - complete architecture\\Models\\Tutorial.cs",
+              "ToolTip": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\MVC - complete architecture\\Models\\Tutorial.cs",
+              "RelativeToolTip": "MVC - complete architecture\\Models\\Tutorial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T14:49:23.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TutorialController.cs",
+              "DocumentMoniker": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\MVC - complete architecture\\Controllers\\TutorialController.cs",
+              "RelativeDocumentMoniker": "MVC - complete architecture\\Controllers\\TutorialController.cs",
+              "ToolTip": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\MVC - complete architecture\\Controllers\\TutorialController.cs",
+              "RelativeToolTip": "MVC - complete architecture\\Controllers\\TutorialController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAhwBQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T14:49:26.286Z",
               "EditorCaption": ""
             }
           ]
