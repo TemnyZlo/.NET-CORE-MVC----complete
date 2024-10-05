@@ -1,13 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MVC___complete_architecture.Models;
+using MVC___complete_architecture.Repository;
+using MVC___complete_architecture.ViewModels;
 
 namespace MVC___complete_architecture.Controllers;
 
 public class TutorialController : Controller
 {
-    [ViewData]
+    private readonly ITutorialRepository _tourRepository;
 
-    public string title { get; set; }
+    public TutorialController(ITutorialRepository tutorialRepository)
+    {
+        _tourRepository = tutorialRepository;
+    }
 
     public IActionResult Index()
     {
@@ -15,29 +20,8 @@ public class TutorialController : Controller
         // ViewData + ViewBag = small amount of data
         // ViewModel = large amount of data
 
-
-   //
-   //var tutorials = new List<Tutorial>()
-   //    {
-   //        new Tutorial { Id = 1, Name = "C#", Description = "C# tutorial" },
-   //        new Tutorial { Id = 1, Name = "Asp.net core", Description = "Asp.net core" }
-   //    };
-   //
-   //    //ViewData["title"] = "Tutorial Details";
-   //
-   //    title = "Tutorials Details";
-   //
-   //    //ViewData["tutorials"] = tutorials;
-   //
-   //    ViewBag.Tutorials = tutorials;
-
-   var newModel = new Tutorial
-   {
-       Id = 1,
-       Name = ".Net app",
-       Description = "zlo"
-   };
-
-        return View(newModel);
+      // var tutorials = new TutorialRepository().getAllTutorial();
+      var tutorials = _tourRepository.getAllTutorial();
+        return View(tutorials);
     }
 }

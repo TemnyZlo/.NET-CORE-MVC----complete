@@ -1,7 +1,18 @@
+using MVC___complete_architecture.Context;
+using MVC___complete_architecture.Repository;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<ITutorialRepository, TutorialRepository>();
+
+
+var connectionString = builder.Configuration.GetConnectionString("TutorialDbConnection");
+builder.Services.AddDbContext<TutorialDbContext>(options => options.UseSqlServer(connectionString));
+
+
 
 var app = builder.Build();
 
