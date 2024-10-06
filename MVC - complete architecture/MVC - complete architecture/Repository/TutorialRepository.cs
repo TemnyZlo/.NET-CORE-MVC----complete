@@ -15,7 +15,9 @@ namespace MVC___complete_architecture.Repository
 
         public Tutorial Add(Tutorial tutorial)
         {
-            throw new NotImplementedException();
+            _context.Tutorials.Add(tutorial);
+            _context.SaveChanges();
+            return tutorial;
         }
 
         public Tutorial Update(Tutorial tutorial)

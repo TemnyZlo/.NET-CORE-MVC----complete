@@ -1,25 +1,28 @@
-﻿@model MVC___complete_architecture.Models.T
+﻿@model IEnumerable<MVC___complete_architecture.Models.Tutorial>
 
-<h1>@ViewData["title"]</h1>
+    @{
+        ViewData["Title"] = "Title - Tutorial";
 
-<h2>@Model.title</h2>
-
-<table class="table">
-    <tr>
-        <th>Id</th>
-        <th>Name</th>
-        <th>Description</th>
-    </tr>
-
-   @foreach (var tutorial in Model)
-    {
-        <tr>
-            <th>@tutorial.Id</th>
-            <th>@tutorial.Name</th>
-            <th>@tutorial.Description</th>
-        </tr>
     }
-   
+    
+    <a class="text-dark btn btn-primary mt-3" asp-area="" asp-contorller="Tutorial" asp-action="CreateTutorial">Add new Tutorial</a>
+    
+    <table class="table">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+        
+        
+        @foreach (var tutorial in Model)
+        {
+            <tr>
+                <th>@tutorial.Id</th>
+                <th>@tutorial.Name</th>
+                <th>@tutorial.Description</th>
+            </tr>
+        }
 
-  
-</table>
+
+    </table>

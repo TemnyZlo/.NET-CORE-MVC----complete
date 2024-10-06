@@ -6,13 +6,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<ITutorialRepository, TutorialRepository>();
+
 
 
 var connectionString = builder.Configuration.GetConnectionString("TutorialDbConnection");
 builder.Services.AddDbContext<TutorialDbContext>(options => options.UseSqlServer(connectionString));
 
-
+builder.Services.AddScoped<ITutorialRepository, TutorialRepository>();
 
 var app = builder.Build();
 
