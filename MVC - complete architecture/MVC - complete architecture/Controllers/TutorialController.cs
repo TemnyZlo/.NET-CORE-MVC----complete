@@ -38,4 +38,30 @@ public class TutorialController : Controller
         Tutorial newTutorial = _tutorialRepository.Add(tutorial);
         return RedirectToAction("Index");
     }
+
+
+    [HttpGet]
+
+    public IActionResult EditTutorial(int id)
+    {
+        Tutorial tutorial = _tutorialRepository.getTutorial(id);
+        return View(tutorial);
+    }
+
+    [HttpPost]
+
+    public IActionResult EditTutorial(Tutorial modifiedData)
+    {
+        Tutorial tutorial = _tutorialRepository.getTutorial(modifiedData.Id);
+            tutorial.Name = modifiedData.Name;
+            tutorial.Description = modifiedData.Description;
+            Tutorial updateTutorial = _tutorialRepository.Update(tutorial);
+            return RedirectToAction("Index");
+    }
+
+    public IActionResult DeleteTutorial(int id)
+    {
+        Tutorial deleteTutorial = _tutorialRepository.Delete(id);
+        return RedirectToAction("Index");
+    }
 }

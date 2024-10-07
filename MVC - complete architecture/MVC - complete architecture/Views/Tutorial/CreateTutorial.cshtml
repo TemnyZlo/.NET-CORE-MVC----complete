@@ -1,5 +1,9 @@
 ﻿@model MVC___complete_architecture.Models.Tutorial
 
+@{
+    ViewBag.Title = "Create Tutorial";
+}
+
 <form method="post" asp-controller="Tutorial" asp-action ="CreateTutorial">
     <div class="form-group" >
         <label asp-for="Name">Name</label>

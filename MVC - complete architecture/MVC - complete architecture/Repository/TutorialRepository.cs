@@ -20,19 +20,28 @@ namespace MVC___complete_architecture.Repository
             return tutorial;
         }
 
-        public Tutorial Update(Tutorial tutorial)
+        public Tutorial Update(Tutorial tutorialModified)
         {
-            throw new NotImplementedException();
+            _context.Update(tutorialModified);
+            _context.SaveChanges();
+            return tutorialModified;
         }
 
         public Tutorial Delete(int Id)
         {
-            throw new NotImplementedException();
+            Tutorial tutorial = _context.Tutorials.Find(Id);
+            if (tutorial != null)
+            {
+                _context.Tutorials.Remove(tutorial);
+                _context.SaveChanges();
+            }
+
+            return tutorial;
         }
 
         public Tutorial getTutorial(int Id)
         {
-            throw new NotImplementedException();
+            return _context.Tutorials.Find(Id);
         }
 
         public IEnumerable<Tutorial> getAllTutorial()
