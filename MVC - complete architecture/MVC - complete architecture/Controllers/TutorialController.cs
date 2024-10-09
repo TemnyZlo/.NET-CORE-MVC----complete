@@ -35,6 +35,10 @@ public class TutorialController : Controller
     [HttpPost]
     public IActionResult CreateTutorial(Tutorial tutorial)
     {
+        if (!ModelState.IsValid)
+        {
+            return View(tutorial);
+        }
         Tutorial newTutorial = _tutorialRepository.Add(tutorial);
         return RedirectToAction("Index");
     }
@@ -42,7 +46,7 @@ public class TutorialController : Controller
 
     [HttpGet]
 
-    public IActionResult EditTutorial(int id)
+    public IActionResult EditTutorial(int id, string querystringData)
     {
         Tutorial tutorial = _tutorialRepository.getTutorial(id);
         return View(tutorial);
