@@ -8,7 +8,10 @@ namespace MVC___complete_architecture.Models
 
         public int Id { get; set; }
 
+        [RegularExpression(@"\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z",
+        ErrorMessage = "Please enter correct text")]
         [Required]
+
         public string Name { get; set; }
 
         [Required]

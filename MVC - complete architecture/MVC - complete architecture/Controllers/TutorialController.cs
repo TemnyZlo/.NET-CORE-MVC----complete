@@ -25,6 +25,7 @@ public class TutorialController : Controller
     }
 
 
+    [Route("AddTutorial")]
     [HttpGet]
     public IActionResult CreateTutorial()
     {
