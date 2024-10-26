@@ -1,6 +1,7 @@
 using MVC___complete_architecture.Context;
 using MVC___complete_architecture.Repository;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,8 +25,19 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+
+//middleware - >
 app.UseHttpsRedirection();
+
 app.UseStaticFiles();
+
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(Directory.GetCurrentDirectory(), "StaticFileTest"),
+        RequestPath = "/StaticFileTest"
+        )
+});
 
 app.UseRouting();
 
@@ -34,5 +46,11 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapControllerRoute(
+    name: "addTutorial",
+    pattern: "/newtutorial",
+    defaults: new { controller = "Tutorial", action = "CreateTutorial"}
+    );
 
 app.Run();
