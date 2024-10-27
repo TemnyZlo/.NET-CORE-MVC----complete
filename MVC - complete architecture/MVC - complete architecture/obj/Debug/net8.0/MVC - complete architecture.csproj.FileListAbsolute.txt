@@ -1,12 +1,3 @@
-Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\obj\Debug\net8.0\MVC - complete architecture.csproj.AssemblyReference.cache
-Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\obj\Debug\net8.0\MVC - complete architecture.GeneratedMSBuildEditorConfig.editorconfig
-Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\obj\Debug\net8.0\MVC - complete architecture.AssemblyInfoInputs.cache
-Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\obj\Debug\net8.0\MVC - complete architecture.AssemblyInfo.cs
-Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\obj\Debug\net8.0\MVC - complete architecture.csproj.CoreCompileInputs.cache
-Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\obj\Debug\net8.0\MVC - complete architecture.MvcApplicationPartsAssemblyInfo.cache
-Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\obj\Debug\net8.0\MVC - complete architecture.RazorAssemblyInfo.cache
-Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\obj\Debug\net8.0\MVC - complete architecture.RazorAssemblyInfo.cs
-Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\obj\Debug\net8.0\MVC - complete architecture.sourcelink.json
 Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\bin\Debug\net8.0\appsettings.Development.json
 Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\bin\Debug\net8.0\appsettings.json
 Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\bin\Debug\net8.0\MVC - complete architecture.staticwebassets.runtime.json
@@ -119,6 +110,15 @@ Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete 
 Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\obj\Debug\net8.0\MVC - complete architecture.csproj.AssemblyReference.cache
+Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\obj\Debug\net8.0\MVC - complete architecture.GeneratedMSBuildEditorConfig.editorconfig
+Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\obj\Debug\net8.0\MVC - complete architecture.AssemblyInfoInputs.cache
+Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\obj\Debug\net8.0\MVC - complete architecture.AssemblyInfo.cs
+Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\obj\Debug\net8.0\MVC - complete architecture.csproj.CoreCompileInputs.cache
+Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\obj\Debug\net8.0\MVC - complete architecture.MvcApplicationPartsAssemblyInfo.cache
+Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\obj\Debug\net8.0\MVC - complete architecture.RazorAssemblyInfo.cache
+Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\obj\Debug\net8.0\MVC - complete architecture.RazorAssemblyInfo.cs
+Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\obj\Debug\net8.0\MVC - complete architecture.sourcelink.json
 Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\obj\Debug\net8.0\staticwebassets.build.json
 Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\obj\Debug\net8.0\staticwebassets.development.json
 Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture\obj\Debug\net8.0\staticwebassets\msbuild.MVC - complete architecture.Microsoft.AspNetCore.StaticWebAssets.props

@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C20823E-9EEA-4E87-8E65-396BDD012CF4}|MVC - complete architecture\\MVC - complete architecture.csproj|z:\\projekt\\.net-core-mvc----complete\\mvc - complete architecture\\mvc - complete architecture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C20823E-9EEA-4E87-8E65-396BDD012CF4}|MVC - complete architecture\\MVC - complete architecture.csproj|solutionrelative:mvc - complete architecture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C20823E-9EEA-4E87-8E65-396BDD012CF4}|MVC - complete architecture\\MVC - complete architecture.csproj|z:\\projekt\\.net-core-mvc----complete\\mvc - complete architecture\\mvc - complete architecture\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{0C20823E-9EEA-4E87-8E65-396BDD012CF4}|MVC - complete architecture\\MVC - complete architecture.csproj|solutionrelative:mvc - complete architecture\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0C20823E-9EEA-4E87-8E65-396BDD012CF4}|MVC - complete architecture\\MVC - complete architecture.csproj|z:\\projekt\\.net-core-mvc----complete\\mvc - complete architecture\\mvc - complete architecture\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0C20823E-9EEA-4E87-8E65-396BDD012CF4}|MVC - complete architecture\\MVC - complete architecture.csproj|solutionrelative:mvc - complete architecture\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -22,51 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\MVC - complete architecture\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MVC - complete architecture\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\MVC - complete architecture\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "MVC - complete architecture\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T07:15:34.664Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-10-27T13:55:13.665Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\MVC - complete architecture\\Program.cs",
-              "RelativeDocumentMoniker": "MVC - complete architecture\\Program.cs",
-              "ToolTip": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\MVC - complete architecture\\Program.cs",
-              "RelativeToolTip": "MVC - complete architecture\\Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAEwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T13:38:52.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "site.css",
-              "DocumentMoniker": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\MVC - complete architecture\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "MVC - complete architecture\\wwwroot\\css\\site.css",
-              "ToolTip": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\MVC - complete architecture\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "MVC - complete architecture\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-26T13:36:47.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }

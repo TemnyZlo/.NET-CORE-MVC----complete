@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+zwGpHmnCcSQ3KHre42hcJLhgdO/CCQzyhSeEWTkBsA=",
+  "Hash": "YPMi2bIaQ5AF+JdCfd/kXflcksHzS7DePmpmr8Z4MbU=",
   "Source": "MVC - complete architecture",
   "BasePath": "_content/MVC - complete architecture",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\MVC - complete architecture\\wwwroot\\images\\logo-web.png",
+      "SourceId": "MVC - complete architecture",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\MVC - complete architecture\\wwwroot\\",
+      "BasePath": "_content/MVC - complete architecture",
+      "RelativePath": "images/logo-web.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo-web.png"
     },
     {
       "Identity": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\MVC - complete architecture\\wwwroot\\js\\site.js",

@@ -3,6 +3,7 @@ using MVC___complete_architecture.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -34,9 +35,8 @@ app.UseStaticFiles();
 app.UseStaticFiles(new StaticFileOptions
 {
     FileProvider = new PhysicalFileProvider(
-        Path.Combine(Directory.GetCurrentDirectory(), "StaticFileTest"),
+        Path.Combine(Directory.GetCurrentDirectory(), "StaticFileTest")),
         RequestPath = "/StaticFileTest"
-        )
 });
 
 app.UseRouting();

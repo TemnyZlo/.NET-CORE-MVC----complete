@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\MVC - complete architecture\\wwwroot\\images\\logo-web.png",
+      "PackagePath": "staticwebassets\\images\\logo-web.png"
+    },
+    {
       "Id": "Z:\\projekt\\.NET-CORE-MVC----complete\\MVC - complete architecture\\MVC - complete architecture\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
