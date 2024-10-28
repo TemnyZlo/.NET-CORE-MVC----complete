@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture
 build_property._RazorSourceGeneratorDebug = 
 
+[Z:/projekt/.NET-CORE-MVC----complete/MVC - complete architecture/MVC - complete architecture/Views/Article/DisplayArticles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxEaXNwbGF5QXJ0aWNsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [Z:/projekt/.NET-CORE-MVC----complete/MVC - complete architecture/MVC - complete architecture/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
