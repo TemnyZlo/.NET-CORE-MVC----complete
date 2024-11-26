@@ -1,45 +1,67 @@
-﻿using MVC___complete_architecture.Context;
+﻿
+using Microsoft.EntityFrameworkCore;
+using MVC___complete_architecture.Context;
 using MVC___complete_architecture.Models;
+using MVC___complete_architecture.Repository;
+using MVC___complete_architecture.ViewModels;
 
 namespace MVC___complete_architecture.Repository
 {
     public class ArticleRepository : IArticleRepository
     {
-
         private readonly TutorialDbContext _context;
-
         public ArticleRepository(TutorialDbContext context)
         {
             _context = context;
         }
-        public Article AddArticle(Article article)
+
+        public void AddArticle(ArticleViewModel article)
         {
-            throw new NotImplementedException();
+            var newArticle = new Article()
+            {
+                ArticleTitle = article.ArticleTitle,
+                ArticleContent = article.ArticleContent,
+                TutorialId = article.TutorialId
+            };
+            _context.Articles.AddAsync(newArticle);
+            _context.SaveChangesAsync();
         }
 
-        public Article DeleteArticle(int Id)
+        public void DeleteArticle(int Id)
         {
-            throw new NotImplementedException();
+            Article article = _context.Articles.Find(Id);
+            if (article != null)
+            {
+                _context.Articles.Remove(article);
+                _context.SaveChanges();
+            }
         }
 
-        public IEnumerable<Article> GetAllArticle()
+        public async Task<IEnumerable<Article>> GetAllArticle()
         {
-            return _context.Articles;
+            return await _context.Articles.ToListAsync();
         }
 
-        public Article GetArticle(int Id)
+        public async Task<IEnumerable<Tutorial>> GetAllTutorials()
         {
-            throw new NotImplementedException();
+            return await _context.Tutorials.ToListAsync();
         }
 
-        public IEnumerable<Article> GetArticlesByTutorialId(int tutorialId)
+        public async Task<Article> GetArticleById(int Id)
         {
-            return _context.Articles.Where(a => a.TutorialId == tutorialId).ToList();
+            return await _context.Articles.FindAsync(Id);
         }
 
-        public Article UpdateArticle(Article article)
+        public async Task<IEnumerable<Article>> GetArticlesByTutorialId(int tutorialId)
         {
-            throw new NotImplementedException();
+            return await _context.Articles.Where(a => a.TutorialId == tutorialId).ToListAsync();
+        }
+
+        public Article UpdateArticle(Article updatedArticle)
+        {
+            _context.Update(updatedArticle);
+            _context.SaveChanges();
+            return updatedArticle;
         }
     }
 }

@@ -1,26 +1,22 @@
 ﻿using MVC___complete_architecture.Models;
+using MVC___complete_architecture.ViewModels;
 
 namespace MVC___complete_architecture.Repository
 {
     public interface IArticleRepository
     {
-       
-
-        Article AddArticle(Article article);
+        void AddArticle(ArticleViewModel article);
 
         Article UpdateArticle(Article article);
 
-        Article DeleteArticle(int Id);
+        void DeleteArticle(int Id);
 
-        Article GetArticle(int Id);
+        Task<Article> GetArticleById(int Id);
 
+        Task<IEnumerable<Article>> GetAllArticle();
 
-        IEnumerable<Article> GetAllArticle();
+        Task<IEnumerable<Tutorial>> GetAllTutorials();
 
-        IEnumerable<Article> GetArticlesByTutorialId(int tutorialId);
-
-
-
-
+        Task<IEnumerable<Article>> GetArticlesByTutorialId(int tutorialId);
     }
 }

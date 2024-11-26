@@ -18,8 +18,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = Z:\projekt\.NET-CORE-MVC----complete\MVC - complete architecture\MVC - complete architecture
 build_property._RazorSourceGeneratorDebug = 
 
+[Z:/projekt/.NET-CORE-MVC----complete/MVC - complete architecture/MVC - complete architecture/Views/Article/AddNewArticle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxBZGROZXdBcnRpY2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [Z:/projekt/.NET-CORE-MVC----complete/MVC - complete architecture/MVC - complete architecture/Views/Article/DisplayArticles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxEaXNwbGF5QXJ0aWNsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/projekt/.NET-CORE-MVC----complete/MVC - complete architecture/MVC - complete architecture/Views/Article/DisplayArticlesByTutorialId.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxEaXNwbGF5QXJ0aWNsZXNCeVR1dG9yaWFsSWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/projekt/.NET-CORE-MVC----complete/MVC - complete architecture/MVC - complete architecture/Views/Article/EditArticle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxFZGl0QXJ0aWNsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/projekt/.NET-CORE-MVC----complete/MVC - complete architecture/MVC - complete architecture/Views/Article/GetArticleByArticleId.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxHZXRBcnRpY2xlQnlBcnRpY2xlSWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/projekt/.NET-CORE-MVC----complete/MVC - complete architecture/MVC - complete architecture/Views/Article/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [Z:/projekt/.NET-CORE-MVC----complete/MVC - complete architecture/MVC - complete architecture/Views/Home/Contact.cshtml]
